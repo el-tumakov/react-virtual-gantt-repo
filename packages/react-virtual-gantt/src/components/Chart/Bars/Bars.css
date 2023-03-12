@@ -1,0 +1,11 @@
+.gantt-bars-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.gantt-bars-list {
+  margin-top: 50px;
+  overflow: visible !important;
+}

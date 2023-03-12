@@ -1,0 +1,19 @@
+:root {
+  --gantt-border-color-base: #ececec;
+  --gantt-background-second: #ffffff;
+  --gantt-primary: #5880ff;
+  --gantt-text-color: #000000;
+  --gantt-text-color-inverse: #ffffff;
+  --gantt-background-main: #fbfcff;
+  --gantt-control-element-bg: #f5f7fa;
+  --gantt-font-size: 14px;
+  --gantt-border-radius: 10px;
+  --gantt-font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial,
+    noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

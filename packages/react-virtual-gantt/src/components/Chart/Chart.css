@@ -1,0 +1,8 @@
+.gantt-chart-wrap {
+  position: relative;
+  flex-grow: 1;
+  border: 1px solid var(--gantt-border-color-base);
+  background-color: var(--gantt-background-second);
+  width: 100%;
+  overflow-x: auto;
+}

@@ -1,0 +1,20 @@
+.gantt-controls-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  border: none;
+  border-radius: var(--gantt-border-radius);
+  background-color: var(--gantt-control-element-bg);
+  padding: 8px;
+  min-width: 40px;
+  min-height: 40px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.gantt-controls-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

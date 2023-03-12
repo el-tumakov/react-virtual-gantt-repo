@@ -1,0 +1,46 @@
+.gantt-controls-select-wrap {
+  position: relative;
+  border-radius: var(--gantt-border-radius);
+  background-color: var(--gantt-control-element-bg);
+}
+
+.gantt-controls-select {
+  position: relative;
+  -webkit-appearance: none;
+  z-index: 1;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  padding: 8px;
+  padding-right: 36px;
+  min-width: 40px;
+  min-height: 40px;
+  font-size: inherit;
+  line-height: 22px;
+  font-family: inherit;
+}
+
+.gantt-controls-select-with-suffix {
+  padding-left: 36px;
+}
+
+.gantt-controls-select-suffix-icon {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.gantt-controls-select-arrow {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}

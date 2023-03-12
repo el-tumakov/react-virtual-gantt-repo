@@ -1,0 +1,19 @@
+.gantt-controls-wrap {
+  display: flex;
+  gap: 10px;
+}
+
+.gantt-controls-icon {
+  font-size: 22px;
+}
+
+.gantt-controls-current-date {
+  display: flex;
+  align-items: center;
+  border-radius: var(--gantt-border-radius);
+  background-color: var(--gantt-control-element-bg);
+  padding: 9px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+}

@@ -1,0 +1,47 @@
+.gantt-tree-wrap {
+  position: sticky;
+  left: 0;
+  flex-shrink: 0;
+  z-index: 100;
+  background-color: var(--gantt-background-second);
+}
+
+.gantt-tree-title {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  border-right: 1px solid var(--gantt-border-color-base);
+  border-bottom: 1px solid var(--gantt-border-color-base);
+  background-color: var(--gantt-background-main);
+  font-weight: 700;
+}
+
+.gantt-tree-inner-wrap {
+  position: relative;
+}
+
+.gantt-tree-list {
+  overflow: visible !important;
+}
+
+.gantt-tree-list-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-right: 1px solid var(--gantt-border-color-base);
+  border-bottom: 1px solid var(--gantt-border-color-base);
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: left;
+}
+
+.gantt-tree-icon {
+  margin-right: 21px;
+  margin-left: -45px;
+  font-size: 24px;
+}

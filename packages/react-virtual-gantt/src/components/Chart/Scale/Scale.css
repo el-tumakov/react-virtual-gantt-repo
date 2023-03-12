@@ -1,0 +1,35 @@
+.gantt-scale-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.gantt-scale-list {
+  overflow: visible !important;
+}
+
+.gantt-scale-item {
+  border-right: none;
+  background-color: var(--gantt-background-main);
+}
+
+.gantt-scale-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--gantt-border-color-base);
+  height: 25px;
+}
+
+.gantt-scale-steps {
+  display: flex;
+  height: 25px;
+}
+
+.gantt-scale-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--gantt-border-color-base);
+  border-right: none;
+}

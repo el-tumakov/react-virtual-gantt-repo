@@ -1,0 +1,70 @@
+{
+  "name": "react-virtual-gantt",
+  "description": "Gantt chart component for react",
+  "version": "0.1.0",
+  "author": "el_tumakov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-tumakov/react-virtual-gantt-repo"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,json}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "rollup": "rollup -c",
+    "publish": "npm publish"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": ">= 17.0.0",
+    "react-dom": ">= 17.0.0"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "6.0.8",
+    "@dnd-kit/modifiers": "6.0.1",
+    "@tippyjs/react": "4.2.6",
+    "classnames": "2.3.2",
+    "dayjs": "1.11.7",
+    "lodash": "4.17.21",
+    "react-window": "1.8.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^4.0.3",
+    "@rollup/plugin-commonjs": "24.0.1",
+    "@rollup/plugin-json": "6.0.0",
+    "@rollup/plugin-node-resolve": "15.0.1",
+    "@rollup/plugin-terser": "0.4.0",
+    "@rollup/plugin-typescript": "11.0.0",
+    "@types/lodash": "4.14.191",
+    "@types/node": "18.14.6",
+    "@types/react-window": "1.8.5",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "acorn-jsx": "5.3.2",
+    "eslint": "8.35.0",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "prettier-plugin-css-order": "^1.3.0",
+    "rollup": "3.19.0",
+    "rollup-plugin-dts": "5.2.0",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-sizes": "^1.0.5",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "tslib": "2.5.0",
+    "typescript": "4.9.5"
+  }
+}

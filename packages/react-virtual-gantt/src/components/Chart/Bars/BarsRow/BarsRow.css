@@ -1,0 +1,4 @@
+.gantt-bars-row-wrap {
+  border-bottom: 1px solid var(--gantt-border-color-base);
+  background-size: 2000px;
+}

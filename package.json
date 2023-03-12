@@ -1,0 +1,22 @@
+{
+  "name": "react-virtual-gantt-repo",
+  "description": "Gantt chart component for react",
+  "author": "el_tumakov",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna": "lerna",
+    "lint": "lerna run lint",
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "rollup": "lerna run rollup",
+    "publish": "lerna run publish"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
