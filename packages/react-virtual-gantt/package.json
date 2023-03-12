@@ -1,7 +1,7 @@
 {
   "name": "react-virtual-gantt",
   "description": "Gantt chart component for react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "el_tumakov",
   "license": "MIT",
   "repository": {
