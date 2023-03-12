@@ -6,6 +6,8 @@ It's still under development. I'll be gratefull for your issues and suggestions.
 
 ![demonstration of react-virtual-gantt](https://media.giphy.com/media/eYYcpKWzXmMuVC0FOs/giphy.gif)
 
+[Demo](https://react-virtual-gantt.vercel.app/)
+
 ## Features
 
 - biderectional infinity scroll by dates
@@ -59,22 +61,22 @@ Example:
 ```ts
 [
   {
-    key: 'task-1',
-    title: 'Some task without data',
+    key: "task-1",
+    title: "Some task without data",
     children: [
       {
-        key: 'task-1-1',
-        title: 'Some non repeating task',
+        key: "task-1-1",
+        title: "Some non repeating task",
         data: {
-          startDate: '2023-03-09T08:00:00.000Z',
-          endDate: '2023-03-09T08:00:00.000Z',
+          startDate: "2023-03-09T08:00:00.000Z",
+          endDate: "2023-03-09T08:00:00.000Z",
         },
         children: [
           {
-            key: 'task-1-1-1',
-            title: 'Some weekly repeating task',
+            key: "task-1-1-1",
+            title: "Some weekly repeating task",
             data: {
-              repeatType: 'WEEK',
+              repeatType: "WEEK",
               fromTime: 28800,
               endDate: 64800,
               weekdays: [1, 3, 6],
@@ -83,10 +85,10 @@ Example:
         ],
       },
       {
-        key: 'task-1-2',
-        title: 'Some daily repeating task',
+        key: "task-1-2",
+        title: "Some daily repeating task",
         data: {
-          repeatType: 'DAY',
+          repeatType: "DAY",
           fromTime: 28800,
           endDate: 64800,
         },
@@ -94,10 +96,10 @@ Example:
     ],
   },
   {
-    key: 'task-2',
-    title: 'Some monthly repeating task',
+    key: "task-2",
+    title: "Some monthly repeating task",
     data: {
-      repeatType: 'MONTH',
+      repeatType: "MONTH",
       fromTime: 28800,
       endDate: 64800,
       monthdays: [1, 3, 5, 9, 11, 14, 21, 31],

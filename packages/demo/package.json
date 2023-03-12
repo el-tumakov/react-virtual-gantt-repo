@@ -28,7 +28,7 @@
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-virtual-gantt": "0.1.1",
+    "react-virtual-gantt": "0.1.2",
     "typescript": "4.9.5"
   }
 }

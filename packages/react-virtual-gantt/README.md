@@ -6,6 +6,8 @@ It's still under development. I'll be gratefull for your issues and suggestions.
 
 ![demonstration of react-virtual-gantt](https://media.giphy.com/media/eYYcpKWzXmMuVC0FOs/giphy.gif)
 
+[Demo](https://react-virtual-gantt.vercel.app/)
+
 ## Features
 
 - biderectional infinity scroll by dates

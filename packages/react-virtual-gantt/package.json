@@ -1,7 +1,15 @@
 {
   "name": "react-virtual-gantt",
   "description": "Gantt chart component for react",
-  "version": "0.1.1",
+  "keywords": [
+    "gantt",
+    "react",
+    "timeline",
+    "gantt chart",
+    "infinity gantt",
+    "virualized gantt"
+  ],
+  "version": "0.1.2",
   "author": "el_tumakov",
   "license": "MIT",
   "repository": {
